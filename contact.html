@@ -1,0 +1,61 @@
+
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kontakt — 31FACTORY</title>
+  <meta name="description" content="Skontaktuj się z 31FACTORY — audyt jakości i AI." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header>
+  <div class="container">
+    <nav>
+      <div class="brand"><a href="index.html">31FACTORY</a></div>
+      <div class="nav-links">
+        <a class="btn ghost" href="index.html">Strona główna</a>
+      </div>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="hero">
+    <div class="container">
+      <h1>Nie musisz mieć gotowego planu — wystarczy wiadomość</h1>
+      <p class="sub">Opisz krótko, z czym masz do czynienia — model, dane, proces. Sprawdzę, jak mogę pomóc i odezwę się z propozycją działań.</p>
+      <form class="form" onsubmit="event.preventDefault(); alert('Dziękuję! Odezwię się wkrótce.'); this.reset();">
+        <label class="label">Imię</label>
+        <input required placeholder="Imię" name="name" />
+        <label class="label">E‑mail</label>
+        <input required type="email" placeholder="twoj@email.com" name="email" />
+        <label class="label">Wiadomość</label>
+        <textarea required placeholder="Napisz kilka zdań..." name="message"></textarea>
+        <button class="btn" type="submit">Wyślij</button>
+      </form>
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="container cols">
+    <div>
+      <div class="brand">31FACTORY</div>
+      <div style="margin-top:8px;display:flex;gap:12px;opacity:.8">
+        <a href="https://www.youtube.com/ISO" target="_blank" rel="noopener">YouTube</a>
+        <span>•</span>
+        <a href="https://blocknews.com/" target="_blank" rel="noopener">Breaking News</a>
+        <span>•</span>
+        <a href="https://www.iso.org/home.html" target="_blank" rel="noopener">ISO News</a>
+      </div>
+    </div>
+    <div>
+      <div class="brand">KONTAKT</div>
+      <div style="margin-top:8px">
+        <div><a href="mailto:info.31factory@gmail.com">info.31factory@gmail.com</a></div>
+        <div><a href="tel:+48604178541">+48 604178541</a></div>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
